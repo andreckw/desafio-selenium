@@ -1,6 +1,5 @@
 # desafio-selenium
-Falta fazer o ranking e selecionar outros filtros de ordenação
-
+## Comandos necessários
 
 ```
 py -m venv venv
