@@ -166,7 +166,7 @@ for produto in configuracoes_produtos:
 """
 
 with open('produtos.csv', mode='w+', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
+    writer = csv.writer(file, delimiter=";")
     writer.writerow(['Título', 'Características'])
 
     for produto in configuracoes_produtos:
